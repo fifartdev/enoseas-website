@@ -15,7 +15,7 @@ export default function InquiryForm() {
     scope: '',
   })
 
-  const formRef = useRef(null)
+  const formRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     gsap.from(formRef.current?.querySelectorAll('.form-item'), {
