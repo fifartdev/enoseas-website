@@ -49,7 +49,7 @@ export default function InquiryForm() {
             <div className="form-item">
               <h2 className="text-4xl font-bold text-white mb-4 font-tech">Partner with ENOSEAS</h2>
               <p className="text-slate-400 text-lg">
-                Connect with our global team of maritime engineering experts to transform your fleet's sustainability and operational efficiency.
+                Connect with our global team of maritime engineering experts to transform your fleet&apos;s sustainability and operational efficiency.
               </p>
             </div>
 

@@ -54,7 +54,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="hero-subtitle text-lg sm:text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
-            Sustainable Marine Engineering, Automation, and Decarbonization Solutions for the World's Fleet
+            Sustainable Marine Engineering, Automation, and Decarbonization Solutions for the World&apos;s Fleet
           </p>
 
           <div className="hero-buttons flex flex-col sm:flex-row gap-4 justify-center">

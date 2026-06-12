@@ -38,9 +38,10 @@ function EntityCard({ title, description, services, imageUrl, accentColor }: Ent
       {/* Background Image */}
       <div className="absolute inset-0 opacity-60 group-hover:opacity-80 transition-opacity">
         <div className={`absolute inset-0 bg-gradient-to-t from-navy-dark via-navy-dark/60 to-transparent`}></div>
-        <img
+        <Image
           src={imageUrl}
           alt={title}
+          fill
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
         />
       </div>
