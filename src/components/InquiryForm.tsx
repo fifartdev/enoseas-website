@@ -18,16 +18,18 @@ export default function InquiryForm() {
   const formRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    gsap.from(formRef.current?.querySelectorAll('.form-item'), {
-      scrollTrigger: {
-        trigger: formRef.current,
-        start: 'top 75%',
-      },
-      opacity: 0,
-      y: 20,
-      duration: 0.6,
-      stagger: 0.1,
-    })
+    if (formRef.current) {
+      gsap.from(formRef.current.querySelectorAll('.form-item'), {
+        scrollTrigger: {
+          trigger: formRef.current,
+          start: 'top 75%',
+        },
+        opacity: 0,
+        y: 20,
+        duration: 0.6,
+        stagger: 0.1,
+      })
+    }
   }, [])
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
